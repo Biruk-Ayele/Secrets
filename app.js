@@ -23,7 +23,7 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
-mongoose.connect("mongodb+srv://bruuk:24785killtg@cluster0.ovs4wvs.mongodb.net/todolistDB");
+mongoose.connect("mongodb+srv://bruuk:24785killtg@cluster0.ovs4wvs.mongodb.net/userDB");
 
 const userSchema = new mongoose.Schema({
     email: String,
